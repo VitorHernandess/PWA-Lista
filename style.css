@@ -1,0 +1,72 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Adiciona espaço interno */
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do rótulo */
+label {
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-left: 750px;
+}
+
+/* Estilo do seletor */
+select {
+    padding: 5px; /* Espaço interno */
+    margin-right: 10px; /* Espaço à direita */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Estilo do botão */
+button {
+    padding: 5px 10px; /* Espaço interno */
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #218838; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilo do título dos itens selecionados */
+h2 {
+    color: #333; /* Cor do texto */
+    margin-top: 20px; /* Espaço acima */
+    margin-left: 750px;
+}
+
+/* Estilo da lista não ordenada */
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilo dos itens da lista */
+li {
+    padding: 10px; /* Espaço interno */
+    margin: 5px 0; /* Espaço acima e abaixo */
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+
+li:hover {
+    background-color: #f0f0f0; 
+}
